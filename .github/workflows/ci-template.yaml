@@ -11,8 +11,6 @@ on:
         description: 'Terraform CLI Version'
         default: 'latest'
         type: string
-env:
-  TF_LOG: DEBUG
   
 jobs:
   validate:
